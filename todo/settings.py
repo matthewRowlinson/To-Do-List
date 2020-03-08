@@ -118,8 +118,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
-
+#the static url gets added automatically 
 STATIC_URL = '/static/'
+#add 'static' to our array of static files so now static/css/my_css.css can be accessed as css/my_css.css and we can include static in our templates
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
