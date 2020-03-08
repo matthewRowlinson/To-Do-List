@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #add todo list the name of our app to our array of installed apps so it can be accessed
     'todo_list',
 ]
 
