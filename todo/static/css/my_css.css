@@ -1,3 +1,4 @@
+/* having a text-decoration of 'line-through' with a class of 'strikeword' which we can add to our templates */
 .strikeword {
     text-decoration: line-through;
 }
